@@ -1,0 +1,28 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+	<!-- <h2>
+		{SITE_TITLE}
+	</h2> -->
+	<nav>
+		<HeaderLink href="/blog/">全部</HeaderLink>
+		<HeaderLink href="/blog/code">代码</HeaderLink>
+		<HeaderLink href="/blog/read">读书</HeaderLink>
+		<HeaderLink href="/blog/movie">电影</HeaderLink>
+		<HeaderLink href="/blog/life">生活</HeaderLink>
+		<HeaderLink href="/blog/think">闲谈</HeaderLink>
+		<!-- <HeaderLink href="/about">关于</HeaderLink> -->
+		<HeaderLink href="https://nobug.space" target="_blank">Nobug.Space</HeaderLink>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0em 0 2em;
+	}
+	h2 {
+		margin: 0.5em 0;
+	}
+</style>
