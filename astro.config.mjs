@@ -8,6 +8,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	// Enable Vue to support Vue components.
 	integrations: [mdx(), sitemap(), vue()],
-	site: 'https://potato47.github.io/',
+	site: 'https://potato47.github.io',
 	base: '/blog',
 });
